@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>BidtoWork</h1>
+				</section>
+				<section>
+					<h3>Encontrar trabajo online puede ser agotador</h3>
+					<img src="https://media.giphy.com/media/l2R0ebkWSmuqExsfS/giphy.gif" alt="">
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						Los *portales* de empleo reemplazan a los diarios modernos en el avisaje de trabajo.
+
+						La experiencia de dejar el curriculum ha transitado de real a virtual... y sin embargo los puestos de trabajo se siguen concretando de manera presencial.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						![imagen](https://media.giphy.com/media/3oKHWmWYMWKLqihabm/giphy.gif)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						Muchas veces las empresas desean tener soluciones específicas a problemas puntuales, lo cual encarece el proceso de selección de personal.
+						![imagen](https://media.giphy.com/media/yIxNOXEMpqkqA/giphy.gif)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						#### Solución...
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						### BidtoWork
+					</textarea>
+				</section>
+				<section style="position:relative;">
+					<h4>Funcionamiento</h4>
+					<ol>
+						<li>Empresas elevan propuestas de proyectos relativas a problemáticas específicas que tienen.</li>
+						<li>Postulantes elevan soluciones que incluyen propuesta económica.</li>
+						<li>Aceptada la propuesta, ambos actores se integran a un sistema de mensajería interno para cerrar los términos del contrato.</li>
+					</ol>
+				</section>
+				<section data-markdown data-transition="zoom">
+					<textarea data-template>
+						### Valor agregado
+						<ul class="fragment fade-in">
+							<li class="fragment fade-in">Experiencia</li>
+							<li class="fragment fade-in">Eficiencia</li>
+							<li class="fragment fade-in">Integración</li>
+							<li class="fragment fade-in">Estándarización de cobros y pagos</li>
+						</ul>
+					</textarea>
+				</section>
+				<section data-transition="grow">
+					<img src="https://media.giphy.com/media/LndpXQstYDN9C/giphy.gif" alt="">
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
